@@ -5,7 +5,7 @@ ToDo: or a different way to set variables, particularly for file pathes.
 """
 import os
 import yaml
-from nbapredict.helpers.classes import NestedDict
+from NBApredict.helpers.classes import NestedDict
 
 
 def project_directory():

@@ -4,10 +4,10 @@ from sqlalchemy import Integer, ForeignKey, String, UniqueConstraint
 from sqlalchemy.orm import Session, relationship
 
 # Local Imports
-import nbapredict.predict.get as get
-from nbapredict.configuration import Config
-import nbapredict.models.four_factor_regression as lm
-import nbapredict.database.dbinterface as dbinterface
+import NBApredict.predict.get as get
+from NBApredict.configuration import Config
+import NBApredict.models.four_factor_regression as lm
+import NBApredict.database.dbinterface as dbinterface
 
 
 def create_prediction_table(database, data, tbl_name):

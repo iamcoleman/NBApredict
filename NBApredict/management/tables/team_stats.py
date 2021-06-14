@@ -1,7 +1,7 @@
 """Team_stats.py contains function to create the team_stats table in the database"""
 
 from datetime import datetime
-from nbapredict.configuration import Config
+from NBApredict.configuration import Config
 from sqlalchemy import ForeignKey, UniqueConstraint
 
 

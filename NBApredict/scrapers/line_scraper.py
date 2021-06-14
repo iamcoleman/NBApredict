@@ -10,10 +10,10 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session, relationship
 
 # Local Imports
-from nbapredict.configuration import Config
-from nbapredict.database.manipulator import DataOperator
-from nbapredict.database import getters
-from nbapredict.database.reconcile import reconcile
+from NBApredict.configuration import Config
+from NBApredict.database.manipulator import DataOperator
+from NBApredict.database import getters
+from NBApredict.database.reconcile import reconcile
 
 
 def bovada_json_request(url):

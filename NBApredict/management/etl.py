@@ -12,11 +12,11 @@ Tables:
 from datetime import datetime
 from datatotable.database import Database
 from datatotable.data import DataOperator
-from nbapredict.configuration import Config
-import nbapredict.management
-import nbapredict.management.conversion as convert
-from nbapredict.management.tables import teams, team_stats, odds, schedule
-from nbapredict.scrapers import team_scraper, line_scraper, season_scraper
+from NBApredict.configuration import Config
+import NBApredict.management
+import NBApredict.management.conversion as convert
+from NBApredict.management.tables import teams, team_stats, odds, schedule
+from NBApredict.scrapers import team_scraper, line_scraper, season_scraper
 
 
 def main(db):

@@ -1,10 +1,10 @@
 """Funcs contains functions for generating predictions and their helper functions."""
 import pandas as pd
 
-import nbapredict.models.four_factor_regression as lm
-import nbapredict.helpers.br_references as br_references
-from nbapredict.database.manipulator import DataOperator
-import nbapredict.database.getters as getters
+import NBApredict.models.four_factor_regression as lm
+import NBApredict.helpers.br_references as br_references
+from NBApredict.database.manipulator import DataOperator
+import NBApredict.database.getters as getters
 
 
 def sample_prediction(database, session, ref_tbl, model):

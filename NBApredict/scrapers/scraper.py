@@ -9,9 +9,9 @@ import os
 from sqlalchemy.orm import Session
 
 # Local Imports
-from nbapredict.database.dbinterface import DBInterface
-from nbapredict.scrapers import team_scraper, season_scraper, line_scraper
-import nbapredict.configuration as configuration
+from NBApredict.database.dbinterface import DBInterface
+from NBApredict.scrapers import team_scraper, season_scraper, line_scraper
+import NBApredict.configuration as configuration
 
 
 def scrape_all(database, session, league_year):

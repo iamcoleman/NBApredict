@@ -15,10 +15,10 @@ import re
 import requests
 
 # Local imports.
-from nbapredict.configuration import Config
-from nbapredict.helpers.br_references import BASE_URL
-from nbapredict.helpers.br_references import data_stat_headers as headers
-from nbapredict.helpers import type
+from NBApredict.configuration import Config
+from NBApredict.helpers.br_references import BASE_URL
+from NBApredict.helpers.br_references import data_stat_headers as headers
+from NBApredict.helpers import type
 
 
 def team_statistics(tbl_name):

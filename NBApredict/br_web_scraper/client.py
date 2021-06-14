@@ -1,8 +1,8 @@
-from nbapredict.br_web_scraper import http_client
+from NBApredict.br_web_scraper import http_client
 
-from nbapredict.br_web_scraper.output import box_scores_to_csv, schedule_to_csv
-from nbapredict.br_web_scraper.output import output
-from nbapredict.br_web_scraper.json_encoders import BasketballReferenceJSONEncoder
+from NBApredict.br_web_scraper.output import box_scores_to_csv, schedule_to_csv
+from NBApredict.br_web_scraper.output import output
+from NBApredict.br_web_scraper.json_encoders import BasketballReferenceJSONEncoder
 
 
 def player_box_scores(day, month, year, output_type=None, output_file_path=None, output_write_option=None, json_options=None):

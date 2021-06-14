@@ -9,10 +9,10 @@ a commit during the process in order to function correctly.
 from sqlalchemy.orm import Session
 
 # Local Imports
-from nbapredict.database.dbinterface import DBInterface
-from nbapredict.predict import bets
-from nbapredict.scrapers import scraper
-from nbapredict.configuration import Config
+from NBApredict.database.dbinterface import DBInterface
+from NBApredict.predict import bets
+from NBApredict.scrapers import scraper
+from NBApredict.configuration import Config
 
 
 def run_all():

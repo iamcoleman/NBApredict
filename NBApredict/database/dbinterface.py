@@ -12,7 +12,7 @@ from sqlalchemy.orm import mapper, clear_mappers
 from sqlalchemy.ext.automap import automap_base
 
 # Local Imports
-from nbapredict.configuration import Config
+from NBApredict.configuration import Config
 
 
 class DBInterface:

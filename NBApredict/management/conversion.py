@@ -1,7 +1,7 @@
 """Conversion contains functions to grease interoperability between tables. At the moment, this consists of the
 values_to_foreign_key function."""
 
-from nbapredict.helpers.classes import NestedDict
+from NBApredict.helpers.classes import NestedDict
 import pandas as pd
 import sqlalchemy
 

@@ -11,8 +11,8 @@ import pandas
 from sqlalchemy import UniqueConstraint, func
 
 # Local Imports
-from nbapredict.br_web_scraper import client
-from nbapredict.configuration import Config
+from NBApredict.br_web_scraper import client
+from NBApredict.configuration import Config
 
 
 def br_enum_to_string(season):

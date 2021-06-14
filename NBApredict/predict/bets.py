@@ -17,14 +17,14 @@ from sqlalchemy import or_
 from sqlalchemy.exc import IntegrityError
 
 # Local imports
-from nbapredict.configuration import Config
-from nbapredict.helpers import br_references
+from NBApredict.configuration import Config
+from NBApredict.helpers import br_references
 from datatotable.database import Database
 from datatotable.data import DataOperator
-from nbapredict.database import getters
-from nbapredict.management import conversion
-from nbapredict.management.tables import predictions
-from nbapredict.models import four_factor_regression as ff_reg
+from NBApredict.database import getters
+from NBApredict.management import conversion
+from NBApredict.management.tables import predictions
+from NBApredict.models import four_factor_regression as ff_reg
 
 
 def get_prediction(reg, pred_df):

@@ -3,7 +3,7 @@ manipulator holds the DataOperator class which coerces raw_data into SQLalchemy 
 ToDo: Remove
 """
 from datetime import datetime
-from nbapredict.helpers import type
+from NBApredict.helpers import type
 from sqlalchemy import Integer, Float, String, DateTime, Boolean
 
 
